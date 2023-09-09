@@ -23,8 +23,8 @@ def get_info(request):
         "current_day": current_day,
         "utc_time": utc_time,
         "track": track,
-        "github_file_url": "https://github.com/username/repo/blob/main/file_name.ext",
-        "github_repo_url": "https://github.com/username/repo",
+        "github_file_url": "https://github.com/GodswillEdet/Task1/blob/main/api/views.py",
+        "github_repo_url": "https://github.com/GodswillEdet/Task1",
         "status_code": 200
     }
     return JsonResponse(info)
